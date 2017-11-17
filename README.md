@@ -61,7 +61,7 @@ Set environment (vars):
 cp .env.example .env
 ```
 
-Set super user:
+Set super user (log: ```admin@admin.com```; pass: ```admin``` ):
 ```sh
 curl -d -H "Content-Type: application/json" -X POST localhost:4040/api/v1/auth/superuser
 ```
