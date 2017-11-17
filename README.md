@@ -61,6 +61,11 @@ Set environment (vars):
 cp .env.example .env
 ```
 
+Set super user:
+```sh
+curl -d -H "Content-Type: application/json" -X POST localhost:4040/api/v1/auth/superuser
+```
+
 Start server:
 ```sh
 # Start server
